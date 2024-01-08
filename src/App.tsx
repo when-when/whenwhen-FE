@@ -1,9 +1,11 @@
 import React from 'react'
-import './index.css'
-import Auth from './Auth'
+import Auth from './pages/Auth'
 
 function App() {
-  return <Auth />
+  return (
+    <div>
+      <Auth />
+    </div>
+  )
 }
-
 export default App
