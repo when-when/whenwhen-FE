@@ -1,8 +1,9 @@
 import React from 'react'
 import './index.css'
+import Auth from './Auth'
 
 function App() {
-  return <button className="btn btn-outline">test</button>
+  return <Auth />
 }
 
 export default App
